@@ -42,14 +42,15 @@ The original button only reset attempts and secret. Fixed it to also reset score
 Bug 1 — Secret not resetting on difficulty change
 Added a difficulty detection block that compares the current difficulty to the previously stored one. When they differ, the entire game state resets and a new secret is generated within the correct range.
 Bug 8 — Info message hardcoded range
-Changed "Guess a number between 1 and 100" to f"Guess a number between {low} and {high}" so the player always sees the correct range for their chosen difficulty.
+Changed "Guess a number between 1 and 100" to f"Guess a number between {low} and {high}" so the player always sees the correct range for their chosen difficulty
 
 ![alt text](pytest_run.png)
 
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
-![alt text](win_case.png)
+
+![alt text](win%20_case.png)
 
 ## 🚀 Stretch Features
 
